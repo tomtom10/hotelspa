@@ -1,1 +1,1 @@
-"use strict";$(document).foundation();
+"use strict";$(function(){$("#gallery a").on("click",function(){var t=$(this).find("img").attr("src"),i=t.split("thumbnail"),n=i[0]+"fullsize"+i[1];$("#galleryModal #imageContainer").attr("src",n)})}),$(document).foundation();
